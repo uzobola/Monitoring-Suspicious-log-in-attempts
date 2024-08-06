@@ -18,8 +18,13 @@ This script analyzes the authentication logs stored on the server and identifies
 The script searches for the following keywords:
 
 -   `Disconnected from`
+
 -   `Unauthorized access`
+
 -   `Could not load host key`
+
 -   `Failed password`
+
 -   `Authentication failure`
+
 -   `Unauthorized access attempt`
