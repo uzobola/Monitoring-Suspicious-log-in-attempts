@@ -9,6 +9,7 @@ This script analyzes the authentication logs stored on the server and identifies
 --------
 
 -   Searches the authentication log for predefined suspicious activity keywords.
+
 -   Logs the identified suspicious entries into a new file named `suspicious_activity.log` for further investigation.
 
 # Keywords 
