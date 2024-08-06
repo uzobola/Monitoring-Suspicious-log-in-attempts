@@ -17,6 +17,11 @@ keywords=( "Unauthorized access" "Could not load host key" "Failed password" "Au
 
 
 # Check if suspicious_activity.log exists, if it does clear the file. If it does not exist, create it.
+echo " " 
+echo " This script is configured to run daily at 6:00AM ..."
+sleep 2
+echo " " 
+echo "Todays date is $(date)"
 echo "... "
 echo " "
 echo "Preparing suspicious_activity.log for output"
@@ -50,4 +55,5 @@ done
 echo " ... "
 echo " ....."
 echo "Suspicious activity log  has been recorded in $new_file"
-echo " " 
+echo " "
+ 
